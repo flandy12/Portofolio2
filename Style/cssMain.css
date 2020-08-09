@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #f7fff7;
+}
+
+.main-one {
+    padding: 2%;
+    color: white;
+    background: #0DB4E1;
+}
+
+.main-text>.judul {
+    width: 450px;
+    text-transform: capitalize;
+    margin: 100px 0 0 0;
+}
+
+.main-text>p {
+    margin: 20px 0 0 0;
+}
+
+.login-main {
+    border: none;
+    color: white;
+    background-color: #1124ce;
+    padding: 4px 40px;
+}
+
+.main-all {
+    margin: auto;
+    max-width: 1100px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.img-one {
+    margin-left: 100px;
+    width: 70%;
+}
+
+.button-all {
+    margin: 3% 0;
+}
+
+.button-all>.button-1 {
+    border: none;
+    margin-right: 5px;
+    text-transform: capitalize;
+    color: rgb(58, 56, 56);
+    background-color: #ffe66d;
+    padding: 7px 50px;
+}
+
+.button-2 {
+    border: none;
+    color: white;
+    background-color: #ff6b6b;
+    padding: 7px 50px;
+}
+
+.main-two {
+    background-color: #0c1ca7;
+}
+
+.article-all {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    max-width: 1300px;
+}
+
+.article-item {
+    padding: 30px;
+    margin: auto;
+}
+
+.img-two {
+    margin: auto;
+    display: flex;
+    box-shadow: 0 0 10px black;
+    width: 60%;
+}
+
+.main-three {
+
+    color: black;
+}
+
+.main-three .judul {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.main-three hr {
+    margin: auto;
+    border: 2px solid blue;
+    width: 100px;
+}
+
+.Item-brand {
+    margin: auto;
+    max-width: 1200px;
+    display: grid;
+    padding-bottom: 5%;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.Item-brand .card {
+    display: flex;
+    margin: auto;
+}
+
+.Item-brand .brand {
+    max-height: 350px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.main-four {
+    margin: auto;
+    background-color: #e0dede;
+    color: #7d7e7d;
+}
+
+#one {
+    object-fit: cover;
+    width: 650px;
+    height: 500px;
+}
+
+.main-four-all {
+    max-width: 1400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.main-four-all > .artikel{
+    padding: 5%;
+}
+footer {
+    padding: 5% 0;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.all-footer {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 20% 15% 15% 15% 15% 20%;
+}
+
+.all-footer>.item-footer {
+    list-style: none;
+}
