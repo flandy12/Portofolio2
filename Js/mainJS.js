@@ -27,11 +27,5 @@
 // }
 // let {enemy} = user;
 // enemy = "landy"
-// console.log(enemy);
+// console.log(enemy); 
 
-ShadowRoot.innerHtml += `
-<style>
-    .main-one{
-        background:white;
-    }
-</style>`

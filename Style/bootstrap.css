@@ -4154,7 +4154,7 @@ input[type="button"].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 1rem 1rem;
 }
 
 .navbar > .container,
@@ -6568,7 +6568,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #050505 !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -6578,7 +6578,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #1a535c !important;
+  background-color: #f8f8f8 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
