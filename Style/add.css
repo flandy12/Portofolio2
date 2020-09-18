@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #E6EEFD;
+    color: black;
+}
+.add_barang{
+    margin: 10% auto;
+    width: 500px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.055);
+}

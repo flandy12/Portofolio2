@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.alldata .navbar{
+    max-width: 1200px;
+}
+.allbody{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.nav-base{
+    background-color: rgb(252, 252, 252);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.103);
+}
+.nav-all{
+    margin-top: 20px;
+}
+.nav-all .nav-item .nav-link{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+.nav-all .nav-item a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.tb-data{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+.all-action {
+    margin: auto;
+    display: flex;
+}
+.navbar .judul{
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 20px;
+    color: white;
+    background-color: rgb(101, 73, 243);
+}
+.active{
+    background-color: orange;
+    color: white;
+}
+.nav-all .nav-item a:active{
+    background-color: orange;
+    color: white;
+}
+.add{
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 3%;
+    padding: 6%;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgba(214, 213, 213, 0.521);
+    background: linear-gradient(rgb(253, 119, 173),rgb(219, 45, 114));
+    /* background: linear-gradient( rgb(109, 5, 246),rgb(19, 3, 107)); */
+}
+.add a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.daftar{
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(49, 49, 49, 0.212);
+    padding: 6%;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(rgb(184, 64, 240),rgb(92, 21, 121));
+}
+
+.update{
+    border-radius: 5px;
+    margin-left: 3%;
+    cursor: pointer;
+    padding: 6%;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgba(49, 49, 49, 0.212);
+    background: linear-gradient(rgb(51, 219, 238),rgb(41, 166, 180));
+}
+
+.tb-dabese{
+    overflow-y: auto;
+    height: 360px;
+    border-radius: 5px;
+    margin: 2% 3%;
+    color: rgb(63, 63, 63);
+    box-shadow: 0 0 20px rgba(175, 171, 171, 0.226);
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    padding: 20px;
+}

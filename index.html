@@ -20,10 +20,10 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">My Desain</a>
+                            <a class="nav-link" href="#">Produck</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Pricing</a>
@@ -33,7 +33,8 @@
                         </li>
                     </ul>
                 </div>
-                <button class="login-main">Login</button>
+                <a href="login.html"> <button class="login-main">Login</button></a>
+                <a href="daftar.html"> <button class="sign-main">Sign</button></a>
             </div>
         </nav>
     </header>
@@ -43,9 +44,7 @@
 
             <div class="clock">
                 <span class="time"></span>
-                <span class="date"></span>
             </div>
-
             <div class="main-text">
                 <h2 class="judul">Making your business ideas come true</h2>
                 <p>casncasnicsa sacjsancsjac jcascnasjc aicnsacsancsa ncasicnas<br>
@@ -59,7 +58,7 @@
     </main>
 
     <article class="main-two">
-        <div class="article-all">
+        <!-- <div class="article-all">
             <div class="article-item">
                 <img src="./img/WFH_svg 3/wfh_6.svg" class="img-two">
             </div>
@@ -71,93 +70,75 @@
                     discoveries.</p>
                 <button class="button-2">Lajsa</button>
             </div>
-        </div>
+        </div> -->
     </article>
 
-    <artikel class="main-three">
-        <div class="judul">
-            <h2>My Desain</h2>
-            <hr>
-        </div>
-        <div class="Item-brand">
+    <section class="main-three">
+
+        <div class="main-three-all">
+            <div class="judul">
+                <h2>Produck</h2>
+                <hr>
+            </div>
+            <div class="Item-brand">
+                <!-- 
+            <div class="row">
+                <?php
+                include "config.php";
+                   $sql = "SELECT * FROM data_shop";
+                   $query = mysqli_query($db, $sql);
+                   while($siswa = mysqli_fetch_array($query)){
+                    echo "<div class='col card-all'>";
+                        echo"<div class ='card-group'>";
+                        echo "<div class='card'>";
+                                echo "<img src=".'barang/'.$siswa['nama_file']." class='card-img-top'>";
+                                    echo "<div class='card-body'>";
+                                        echo "<h5 class='card-title'>".$siswa['nama_produk']."</h5>";
+                                        echo "<p class='card-text'>".$siswa['diskripsi']."</p>";
+                                    echo "</div>";
+                    
+                                    echo"<div class='card-footer'>";
+                                        echo "<small>Last updated 3 mins ago</small>";
+                                    echo"</div>";
+                        echo "</div";
+                     echo "</div";        
+                  }
+                ?> 
+            </div> -->
             <div class="card-group">
                 <div class="card">
-                    <img src="./img/karakter2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card-footer">
-                        <small>Last updated 3 mins ago</small>
-                    </div>
+                  <img src="./barang/Mockup-Recovered.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
                 </div>
                 <div class="card">
-                    <img src="./img/FELIC.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card-footer">
-                        <small>Last updated 3 mins ago</small>
-                    </div>
+                  <img src="./barang/monalisa.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
                 </div>
                 <div class="card">
-                    <img src="./img/tasa.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card-footer">
-                        <small>Last updated 3 mins ago</small>
-                    </div>
+                  <img src="./barang/whatever_heaven.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
                 </div>
-            </div>
-            <div class="card-group">
-                <div class="card">
-                    <img src="./img/kak dilla.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card-footer">
-                        <small>Last updated 3 mins ago</small>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="./img/q.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card-footer">
-                        <small>Last updated 3 mins ago</small>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="./img/kidut.png
-                    " class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card-footer">
-                        <small>edLast updated 3 mins ago</small>
-                    </div>
-                </div>
+              </div>
             </div>
         </div>
-    </artikel>
+    </section>
 
     <article class="main-four">
         <div class="article-all">
-            <div class="article-item">
-                <img src="./img/kakarkter-Recovered.png" class="img-four">
+            <div class="article-img">
+                <img src="./img/WFH_svg 3/wfh_7.svg" class="img-four">
             </div>
             <div class="article-item">
                 <h2>Track a Company’s Entire Digital Footprint</h2>
@@ -169,6 +150,7 @@
             </div>
         </div>
     </article>
+
     <!-- <article class="main-four">
         <div class="main-four-all">
             <div class="foto">
@@ -187,22 +169,23 @@
             </div>
         </div>
     </article> -->
-    <article class="main-five">
-        <div class="main-five-container">
-            <img src="./img/A0U9EMwvkXs_Full.jpg" alt="" class="jumbo">
-        </div>
-        <div class="main-five-list">
-            <img src="./img/A0U9EMwvkXs_Full.jpg" alt="" class="item-list active-img">
-            <img src="./img/behance_download_1580080788011.jpg" alt="" class="item-list">
-            <img src="./img/james-padolsey-tvPvROBv0F4-unsplash.jpg" alt="" class="item-list">
-            <img src="./img/vincent-giersch-Jky9coxzeHI-unsplash.jpg" alt="" class="item-list">
-            <img src="./img/pierpaolo-lanfrancotti-NKUEACkOhbk-unsplash.jpg" alt="" class="item-list">
-            <img src="./img/k1bO_VTiZSs_Full.jpg" alt="" class="item-list">
-            <img src="./img/GIGiSdz4g5Y_Full.jpg" alt="" class="item-list">
-            <img src="./img/Ys-DBJeX0nE_Full.jpg" alt="" class="item-list">
-        </div>
-
-    </article>
+    <!-- <section class="five-all">
+        <article class="main-five">
+            <div class="main-five-container">
+                <img src="./img/A0U9EMwvkXs_Full.jpg" alt="" class="jumbo">
+            </div>
+            <div class="main-five-list">
+                <img src="./img/A0U9EMwvkXs_Full.jpg" alt="" class="item-list active-img">
+                <img src="./img/behance_download_1580080788011.jpg" alt="" class="item-list">
+                <img src="./img/james-padolsey-tvPvROBv0F4-unsplash.jpg" alt="" class="item-list">
+                <img src="./img/vincent-giersch-Jky9coxzeHI-unsplash.jpg" alt="" class="item-list">
+                <img src="./img/pierpaolo-lanfrancotti-NKUEACkOhbk-unsplash.jpg" alt="" class="item-list">
+                <img src="./img/k1bO_VTiZSs_Full.jpg" alt="" class="item-list">
+                <img src="./img/GIGiSdz4g5Y_Full.jpg" alt="" class="item-list">
+                <img src="./img/Ys-DBJeX0nE_Full.jpg" alt="" class="item-list">
+            </div>
+        </article>
+   </section> -->
     <footer>
         <div class="all-footer">
             <div class="item-footer one ">
@@ -254,7 +237,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="./Js/bootstrap.js"></script>
-    <script src="./src/index.js"></script>
+    <script src="./src/index.js" type="module"></script>
 </body>
 
 </html>

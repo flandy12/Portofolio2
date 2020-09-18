@@ -1,0 +1,99 @@
+<?php 
+
+include("config.php"); 
+
+?>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pendaftaran Siswa Baru | SMK Coding</title>
+    <link href="./Style/bootstrap.css" rel="stylesheet">
+    <link href="./Style/admin.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <section class="allbody">
+        <div class="nav-base">
+            <ul class="nav-all">
+                <!-- <div class="brand">
+                <p>Flandy</p>
+            </div> -->
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Terupdate</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Habis</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+        </div>
+        <div class="alldata">
+            <nav class="navbar">
+                <p class="judul">Selamat datang, <span id="admin">Admin !</span>
+                </p>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </nav>
+
+            <div class="all-action">
+                <div class="add">
+                    <p><a href="./add.php">Tambah barang</a></p>
+                </div>
+                <div class="daftar">
+                    <p>Daftar barang</p>
+                </div>
+                <div class="update">
+                    <p>Update barang</p>
+                </div>
+            </div>
+
+            <div class="tb-dabese">
+                <table class="tb-data">
+                    <thead class="thead">
+                        <tr>
+                            <th>Nama</th>
+                            <th>Email</th>
+                            <th>Password</th>
+                            <th>Tindakan</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tbody">
+                        
+                   <?php
+                     $sql = "SELECT * FROM pengunjung ORDER BY Nama ASC";
+                     $query = mysqli_query($db, $sql);
+
+                            while($siswa = mysqli_fetch_array($query)){
+                            echo "<tr>";
+                            echo "<td><a>".$siswa['Nama']."</a></td>";
+                            echo "<td><a>".$siswa['Email']."</a></td>";
+                            echo "<td><a>".$siswa['Password']."</a></td>";        
+                            echo "<td>";
+                            // echo "<a href='form-edit.php?id=".$siswa['id']."'>Edit</a> | ";
+                            echo "<a href='hapus.php?id=".$siswa['id']."'>Hapus</a>";
+                            echo "</td>";
+                            echo "</tr>";
+                           }
+                       ?>
+                    </tbody>
+
+                </table>
+
+                <p>Total: <?php echo mysqli_num_rows($query) ?></p>
+            </div>
+        </div>
+    </section>
+    <script src="./Js/admin.js" type="module"></script>
+</body>
+
+</html>

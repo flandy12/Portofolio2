@@ -3,14 +3,10 @@
     padding: 0;
 }
 
-body {
-    color: #f7fff7;
-}
-
 .main-one {
     padding: 11%;
     color: white;
-    background: url("../img/duotone\ \(1\).png");
+    background: url("../img/michal-ampula-7cC9JKrcuoU-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -25,19 +21,43 @@ body {
     margin: 20px 0 0 0;
 }
 
+
 .login-main {
     border: none;
     color: rgb(255, 255, 255);
-    border-radius: 5px;
-    background-color: #05eefff5;
-    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.226);
+    background-color: transparent;
+    padding: 8px 35px;
+}
+.login-main:hover{
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    padding: 8px 35px;
+}
+.login-main a {
+    text-decoration: none;
+    color: white;
+}
+.sign-main a {
+    text-decoration: none;
+    color: white;
+}
+.sign-main {
+    border: none;
+    background-color: #2e0acff5;
+    color: rgb(255, 255, 255);
+    padding: 8px 35px;
+}
+.sign-main:hover{
+    border: 1px solid #fffffff5;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
     padding: 8px 35px;
 }
 
 .card-group img {
     object-fit: contain;
     height: 350px;
-
 }
 
 .main-all {
@@ -53,20 +73,22 @@ body {
     border: none;
     margin: 0px 0px 30px 0;
     text-transform: capitalize;
-    color: rgb(58, 56, 56);
-    background-color: #ffe66d;
+    color: rgb(255, 255, 255);
+    background-color: #11fce8;
     padding: 7px 50px;
 }
 
 .button-2 {
     border: none;
     color: white;
-    background-color: #ff6b6b;
+    background-color: #FCCD52;
     padding: 7px 50px;
 }
 
 .main-two {
-    background: url('../img/Untitled-2.jpg');
+    color: white;
+    /* background: url('../img/Untitled-2.jpg'); */
+    background-color: #2c09c6;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -88,78 +110,88 @@ body {
     justify-content: center;
     width: 650px;
 }
-
+/* 
+.img-two:hover{
+    filter:drop-shadow(0 0 20px  rgb(0, 81, 255));
+} */
 .main-three {
-    color: black;
+    margin: auto;
+    background: linear-gradient(#030518,#030622);
+    color: rgb(255, 255, 255);
 }
-
+.main-three-all{
+    margin: auto;
+    padding: 2% 0;
+    max-width: 1200px;
+}
 .main-three .judul {
-    padding: 30px 0;
+    padding: 4%;
     text-align: center;
 }
-
+/* .main-three .judul h2 {
+    text-shadow:  0px 0px 20px rgb(0, 247, 255);
+} */
 .main-three hr {
-    margin: 1.3% auto;
-    border: 2px solid blue;
+    margin: auto;
+    /* box-shadow:  0 0 20px rgb(0, 247, 255); */
+    height: 2px;
+    background-color: #07ffea;
     width: 100px;
 }
 
-.Item-brand {
-    display: grid;
-    grid-template-rows: 50% 50%;
-    margin: auto;
-    max-width: 1120px;
+.card img{
+    object-fit: cover;
+    height: 400px;
 }
-
-.Item-brand .card-group {
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.11);
-    margin-bottom: 30px;
+.card-body{
+    color: #08090a;
 }
-
-
 .Item-brand .card-footer {
     color: white;
-    background-color: rgb(255, 145, 0);
-}
-
-.Item-brand .card {
-    display: flex;
-    margin: auto;
-}
-
-.Item-brand .brand {
-    max-height: 350px;
-    object-fit: cover;
-    width: 100%;
+    background-color: rgb(100, 0, 161);
 }
 
 .main-four {
-    background: url("../img/Untitled-4.jpg");
+    /* background: url("../img/bg-1.png");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;  */
+    /* background-color:#160f31; */
+    padding: 5% 0;
+    background-color: #ffffff;
+    color: rgb(199, 198, 198);
 }
-
+.main-four .article-img{
+    margin: 2%auto;
+}   
+.main-four .article-item{
+    width: 500px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.116);
+    background-color: #2c09c6;
+    color: rgb(221, 214, 214);
+}
 .main-four .article-all {
     display: grid;
     grid-template-columns: 50% 50%;
 }
-
 .img-four {
-    margin-left: 100px;
-    width: 220px;
+    width:700px;
+}
+.five-all{
+  /* background:linear-gradient(rgb(95, 228, 233),rgb(2, 2, 46)); */   
+ background-color: #ffb703;
 }
 .main-five {
     padding: 3%;
+    width: 100%;
     display: grid;
     grid-template-columns: 60% 40%;
-    max-width: 1300px;
+    max-width: 1200px;
     margin: auto;
 }
 .main-five-container img{
    width: 100%;
 }
 .main-five-list{
-    margin-left: 10px;
     display: grid;
     grid-template-rows: 50% ;
     grid-template-columns: 25% 25% 25% 25%;
@@ -189,6 +221,7 @@ footer {
 .all-footer>.item-footer {
     list-style: none;
 }
+
 .item-footer .one {
     justify-content: center;
     text-align: center;
