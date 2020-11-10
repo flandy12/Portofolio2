@@ -4,34 +4,40 @@
 }
 body{
     color: black;
-    background-color: rgb(243, 237, 237);
-
+    background-color: rgb(255, 255, 255);
 }
 
 .form-all{
-   
-    display: flex;
-    justify-content: center;
     margin: auto;
-}
-.about-login{
-    max-width: 1200px;
-    padding: 5%;
-    background-color: aquamarine;
-    width: 60%;
-}
-.about-login p{
-    max-width: 1200px;
-    margin: auto;
+    max-width: 1350px;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 .form-main-1{
-    border-radius: 5px;
-    box-shadow: 0 0 20px rgba(17, 17, 17, 0.068);
-    width: 40%;
-    color: rgb(255, 255, 255);
-    background: linear-gradient(rgb(10, 216, 216),rgb(4, 18, 141));
+    width:500px;
+    margin: auto;
+    padding: 25% 0;
+}
+.btn{
+    color: white;
+    background-color: rgb(62, 48, 255);
+}
+.form{
     padding: 5%;
-    margin: 10%;
+    box-shadow: 0 0 20px rgba(56, 56, 56, 0.116);
+}
+.about-login{
+    text-align: center;
+    width: 100%;
+    display: block;
+    align-items: center;
+    padding: 0 5%;
+    color: white;
+    background: linear-gradient(to left ,rgb(62, 48, 255),rgb(55, 0, 255));
+}
+.about-login img{
+    margin: auto;
+    width: 500px;
 }
 .login-main {
     border: none;

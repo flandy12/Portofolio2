@@ -11,9 +11,9 @@
 // setTimeout(() => {
 //     window.open('http://localhost:8080/login.html');
 // }, 3000);
-
-
-
+window.scrollY(2000) = function b(){
+    alert('sukses');
+}
 
 // const displayTime = () => {
 //     moment.locale("id");

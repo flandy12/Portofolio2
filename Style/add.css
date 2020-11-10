@@ -3,14 +3,14 @@
     padding: 0;
 }
 body{
-    background-color: #E6EEFD;
-    color: black;
+    background-image: linear-gradient(to right top, #3d6ef8, #1280fe, #008fff, #009eff, #00abff, #00b7ff, #00c3ff, #11ceff, #01dafe, #21e6fc, #41f1f7, #59e4da);
+    color: rgb(48, 48, 48);
 }
 .add_barang{
     margin: 10% auto;
     width: 500px;
-    background-color: white;
+    background-color: rgb(241, 241, 241);
     padding: 50px;
     border-radius: 5px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.055);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.164);
 }

@@ -2,97 +2,82 @@
     margin: 0;
     padding: 0;
 }
-.alldata .navbar{
-    max-width: 1200px;
-}
 .allbody{
     display: grid;
     grid-template-columns: 20% 80%;
 }
 .nav-base{
-    background-color: rgb(252, 252, 252);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.103);
-}
-.nav-all{
-    margin-top: 20px;
-}
-.nav-all .nav-item .nav-link{
-    color: rgb(0, 0, 0);
+    padding: 4% 0 0 0 ;
     text-align: center;
-    text-decoration: none;
-    list-style: none;
+    color: white;
+    background-color: rgb(37, 37, 37);
 }
-.nav-all .nav-item a:hover{
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
+.alldata{
+    background-color: rgb(231, 231, 231);
 }
-
-.tb-data{
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-}
-.all-action {
-    margin: auto;
+.all-action{
+    
     display: flex;
+    
+    margin: 10px 20px;
 }
-.navbar .judul{
-    border-radius: 5px;
-    padding: 10px;
-    margin: 0 20px;
-    color: white;
-    background-color: rgb(101, 73, 243);
-}
-.active{
-    background-color: orange;
-    color: white;
-}
-.nav-all .nav-item a:active{
-    background-color: orange;
-    color: white;
-}
-.add{
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 0 3%;
-    padding: 6%;
-    color: rgb(255, 255, 255);
-    box-shadow: 0 0 20px rgba(214, 213, 213, 0.521);
-    background: linear-gradient(rgb(253, 119, 173),rgb(219, 45, 114));
-    /* background: linear-gradient( rgb(109, 5, 246),rgb(19, 3, 107)); */
+.tb-dabese{
+    box-shadow: 0 0 20px rgba(56, 56, 56, 0.116);
+    background-color: rgb(240, 240, 240);
+    margin: 0px 20px 20px 20px;
+    overflow-y: scroll;
+    height: 400px;
 }
 .add a{
     text-decoration: none;
+    width: 200px;
+    margin-right: 20px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
+    background-color: rgb(43, 183, 226);
 }
-
-
 .daftar{
-    border-radius: 5px;
-    cursor: pointer;
-    box-shadow: 0 0 20px rgba(49, 49, 49, 0.212);
-    padding: 6%;
-    color: rgb(255, 255, 255);
-    background: linear-gradient(rgb(184, 64, 240),rgb(92, 21, 121));
+    text-decoration: none;
+    width: 200px;
+    height: 150px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(43, 128, 226);
 }
-
 .update{
-    border-radius: 5px;
-    margin-left: 3%;
-    cursor: pointer;
-    padding: 6%;
-    color: rgb(255, 255, 255);
-    box-shadow: 0 0 20px rgba(49, 49, 49, 0.212);
-    background: linear-gradient(rgb(51, 219, 238),rgb(41, 166, 180));
+    text-decoration: none;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(26, 29, 192);
 }
+.tb-data{
 
-.tb-dabese{
-    overflow-y: auto;
-    height: 360px;
-    border-radius: 5px;
-    margin: 2% 3%;
-    color: rgb(63, 63, 63);
-    box-shadow: 0 0 20px rgba(175, 171, 171, 0.226);
-    background-color: rgb(255, 255, 255);
-    margin-top: 20px;
+    margin: auto;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+}
+.all-footer{
+    display: flex;
     padding: 20px;
+    justify-content: center;
+    list-style: none;
+    margin: 0 2% auto;
+}
+.item-footer {
+    margin-right: 3%;
 }
